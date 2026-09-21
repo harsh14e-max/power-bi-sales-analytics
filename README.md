@@ -221,21 +221,13 @@ DIVIDE([Profit], [Total Sales], 0)
 Unique Clients =
 DISTINCTCOUNT(Customer[CustomerID])
 
-GlobalTech-PowerBI-Sales-Analytics/
-│
-├── README.md
-│
-├── screenshots/
-│   ├── 01-"C:\Users\harsh\OneDrive\Pictures\Screenshots\total-sales.png."
-│   ├── 02-parallel-period-sales.png
-│   ├── 03-product-ranking.png
-│   ├── 04-sales-by-year.png
-│   ├── 05-rolling-30-days.png
-│   ├── 06-top-10-clients.png
-│   ├── 07-unique-clients.png
-│   ├── 08-product-performance.png
-│   ├── 09-employee-performance.png
-│   ├── 10-supplier-performance.png
-│   └── 11-kpis.png
-│
-└── README-assets/
+Rolling 30 Day Sales = 
+CALCULATE(
+    [Total Sales],
+    FILTER(
+        ALLSELECTED(Dates),
+        Dates[Date] > MAX(Dates[Date]) - 30 &&
+        Dates[Date] <= MAX(Dates[Date])
+    )
+)
+
