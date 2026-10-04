@@ -231,3 +231,7 @@ CALCULATE(
     )
 )
 
+
+## 📊 Power BI Report
+
+[🔗 View Interactive Power BI Report]("C:\Users\harsh\OneDrive\Documents\sales analyzed dataset.pbix")
