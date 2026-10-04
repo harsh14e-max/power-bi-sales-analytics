@@ -234,4 +234,4 @@ CALCULATE(
 
 ## 📊 Power BI Report
 
-[🔗 View Interactive Power BI Report]("C:\Users\harsh\OneDrive\Documents\sales analyzed dataset.pbix")
+[🔗 View Interactive Power BI Report](https://1drv.ms/u/c/1c89c69f7f8d5a3c/IQAD-x3iPwGhTqe_DVy_yQ1QAT5oGzYR3ZRo9_HdTBvZ8t4?e=ytRYtL)
